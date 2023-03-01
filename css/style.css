@@ -1,0 +1,167 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+nav {
+    font-size: 1.2em;
+}
+.container-fluid {
+    padding: 2% 15%;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Headings*/
+
+.main-heading{
+    font-size: 3em;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 700;
+}
+.med-header{
+    font-size: 2.2em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+/*title section*/
+
+#title{
+    background-color: #1faee9;
+}
+.home_smartphone {
+    width:70%;
+}
+
+/*features section*/
+
+.feature_desc {
+    color: #8f8f8f;
+}
+.icon-feature {
+    color: #2a8bda;
+    font-size: 4em;
+}
+.icon-feature:hover {
+    color: #1faee9;
+}
+
+/*testimonials section*/
+
+#testimonials {
+    min-height: 308px;
+    background-color: #2a8bda;
+    color: #fff;
+}
+.carousel-item {
+    padding: 5% 15%;
+}
+.testimonial-image {
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+#press {
+    padding-bottom: 2%;
+    background-color: #2a8bda;
+}
+#press img {
+    margin-left: 20px;
+    width: 15%
+}
+
+/*pricing section*/
+
+.item-card{
+    min-height: 130px;
+}
+
+/*cta section*/
+
+#cta{
+    position: relative;
+    background-color: #000;
+    background: url('../images/EarthViewAlt.jpg');
+    padding: 10%;
+    height: 500px;
+    color: #fff;
+    transition: background 1s;
+}
+#cta:hover{
+    background: url('../images/EarthViewAlt.jpg') 0 -40px;
+    transition: background 1s;
+}
+
+/*footer section*/
+
+#footer{
+    padding: 2%;
+    height:200px;
+    color: #414040;
+    font-size: 1.3em;
+}
+
+/*Media breakpoints*/
+
+@media (min-width: 992px) and (max-width: 1266px) {
+    .main-heading {
+        font-size: 2em;
+    }
+    .med-header {
+        font-size: 1.8em;
+    }
+    .dload-btn{
+        width: 46%;
+    }
+    #cta{
+        padding: 15%;
+    }
+}
+@media (min-width: 565px) and (max-width: 991px) {
+    .med-header {
+        font-size: 1.8em;
+    }
+    #cta{
+        padding: 0;
+        padding-top: 15%;
+        height: 400px;
+    } 
+    .dload-btn{
+        width: 46%;
+    }
+}
+@media (max-width: 564px) {
+    .main-heading {
+        font-size: 2em;
+    }
+    .med-header {
+        font-size: 1.2em;
+    }
+    .container-fluid {
+        padding: 2% 5%;
+    }
+    .dload-btn{
+        width: 46%;
+    }
+    .testimonial-image {
+        width: 80px;
+        border-radius: 50%;
+        margin: 20px;
+    }
+    #cta{
+        padding: 0;
+        padding-top: 30%;
+        height: 400px;
+    }
+    #footer{
+        padding-top: 16%;
+    }
+}
